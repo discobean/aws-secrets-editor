@@ -27,8 +27,7 @@ changes are made. You can also specify a version of the secret to edit.
     ```
 
 ## Usage
-### Build the Program
-To build the Go program, run:
+Run help
 
 ```sh
 ./aws-secrets-editor --help
@@ -43,9 +42,7 @@ Usage of ./aws-secrets-editor:
     	The version stage of the secret (optional)
 ```
 
-### Edit a secret
-To edit a secret, run the following command:
-
+To edit a secret, run the following command, save and exit the editor to update the secret:
 ```sh
 export AWS_PROFILE=some-profile
 export AWS_REGION=us-east-1
